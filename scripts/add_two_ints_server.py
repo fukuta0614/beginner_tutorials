@@ -1,7 +1,7 @@
-#!usr/bin/env python
-import roslib; roslib.load_manifest('beginner-tutorials')
+#!/usr/bin/env python
+import roslib; roslib.load_manifest('beginner_tutorials')
 
-from beginner-tutorials.srv import *
+from beginner_tutorials.srv import *
 import rospy
 
 def handle_add_two_ints(req):
